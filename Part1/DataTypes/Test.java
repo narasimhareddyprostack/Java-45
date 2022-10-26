@@ -1,0 +1,6 @@
+class Test{
+public static void main(String[] args){
+	byte b  = 400;
+	System.out.println(b);
+}
+}
