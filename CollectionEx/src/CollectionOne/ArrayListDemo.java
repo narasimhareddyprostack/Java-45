@@ -10,7 +10,7 @@ public class ArrayListDemo {
 		ArrayList<Integer> al1 = new ArrayList<Integer>();
 		//create ArrayList with String elements 
 		ArrayList<String> al2 = new ArrayList<String>();
-		al2.add("Rahul Gandhi");  //index 0
+		//al2.add("Rahul Gandhi");  //index 0
 		al2.add("Sonia");         //index 1
 		al2.add("Priyanka");      //index 2
 		al2.add("Modi");          //index 3
