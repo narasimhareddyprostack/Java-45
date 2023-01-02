@@ -1,0 +1,5 @@
+show databases
+
+use 7pm
+
+select * from emp
