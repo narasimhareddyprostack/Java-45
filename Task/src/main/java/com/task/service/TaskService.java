@@ -12,12 +12,9 @@ import com.task.repository.TaskRepository;
 public class TaskService {
 	@Autowired
 	TaskRepository taskRepo;
-	//CRUD Method
+	
 	public List getTasks() {
 		ArrayList tasks = new ArrayList();
-		System.out.println("Test Case 124 - Service");
-		taskRepo.findAll().forEach(tasks::add);
+		taskRepo.findAll().forEach(tasks::add);	
 		return tasks;
-	}
-	
-}
+	}}
